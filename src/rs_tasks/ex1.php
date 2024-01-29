@@ -1,14 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Exercise 1: Getting Started with PHP - Richard</title>
-</head>
-<body>
+<?php
+$title = "PHP Exercise 1";
+$description = "A exercise for the HAMK school of applied Sciences";
+$keywords = "PHP, schoolwork";
 
+include 'header.php' ?>
 <h3>3.1 Write PHP code to output the following message: <br>
     Hello world! My name is "David"</h3>
 
@@ -62,6 +57,4 @@ $g3 = 5;
 <h3>3.4 Take a screenshot that confirms your development environment setup and include it as an image in the "ex1.php" file.</h3>
 <img src="images/php-setup.png" alt="web development environment">
 
-</body>
-</html>
-
+<?php include 'footer.php';?>
