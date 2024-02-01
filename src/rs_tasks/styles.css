@@ -290,6 +290,7 @@ img.center {
 .btn {
     background-color: var(--details);
     border-color: var(--details);
+
 }
 
 .current-tab {
