@@ -1,10 +1,18 @@
+<hr>
 <div class="row" id="footer">
     <div class="col-sm-4">
         <h4 class="footer-heading" id="footer-center">Bon appetit!</h4>
     </div>
     <div class="col-sm-4">
         <div id="footer-helper">
-            <img src="images/headerFooter/underline-title.png" id="footer-underline" alt="">
+            <?php
+            $currentPage= $_SERVER['SCRIPT_NAME'];
+            $pageName = basename($currentPage);
+            $lastModification = filemtime($pageName);
+            $dateModified = date('Y-m-d H:i:s', $lastModification);
+            ?>
+            <h4><?php echo 'Page: '. $pageName?></h4>
+            <h4><?php echo 'Last modified: '. $dateModified?></h4>
         </div>
     </div>
     <div class="col-sm-4">

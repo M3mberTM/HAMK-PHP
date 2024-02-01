@@ -304,3 +304,7 @@ img.center {
 #gallery-heading {
     margin-bottom: 15px;
 }
+
+.table {
+    --bs-table-bg: var(--primary-color);
+}

@@ -1,0 +1,1 @@
+<h3>Hello<?php echo ' ' . $_POST["fName"] . ' ' . $_POST["lName"]; ?>, You are welcome to my site.</h3>
