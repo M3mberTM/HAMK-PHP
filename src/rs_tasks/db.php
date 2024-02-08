@@ -1,8 +1,15 @@
 <?php
-$servername = "php24-db-1"; // Replace with your MySQL server hostname
-$username = "crud_app";     // Replace with your MySQL username
-$password = "test0406";     // Replace with your MySQL password
-$dbname = "crud_app";       // Replace with the name of your MySQL database
+// shell.hamk.fi server name >>> localhost
+//$servername = "localhost";
+//$username = "richard23001";
+//$password = "z0zBIlZz";
+//$dbname = "wp_richard23001";
+
+// local server
+$servername = "php24-db-1";
+$username = "crud_app";
+$password = "test0406";
+$dbname = "crud_app";
 
 
 // Create a database connection
